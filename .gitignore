@@ -1,0 +1,236 @@
+### https://raw.github.com/github/gitignore/4215c0f78cf6ac52f3b943b7b0904cfc470d032e/Global/OSX.gitignore
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+### https://raw.github.com/github/gitignore/4215c0f78cf6ac52f3b943b7b0904cfc470d032e/Global/Windows.gitignore
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+
+### https://raw.github.com/github/gitignore/4215c0f78cf6ac52f3b943b7b0904cfc470d032e/Global/Linux.gitignore
+
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+
+### https://raw.github.com/github/gitignore/4215c0f78cf6ac52f3b943b7b0904cfc470d032e/Global/Xcode.gitignore
+
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+DerivedData
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+
+
+### https://raw.github.com/github/gitignore/4215c0f78cf6ac52f3b943b7b0904cfc470d032e/Global/VisualStudioCode.gitignore
+
+.vscode
+
+
+
+### https://raw.github.com/github/gitignore/4215c0f78cf6ac52f3b943b7b0904cfc470d032e/C.gitignore
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+
+
+### https://raw.github.com/github/gitignore/4215c0f78cf6ac52f3b943b7b0904cfc470d032e/C++.gitignore
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+### JUCE
+._*
+*.mode1v3
+*.pbxuser
+*.perspectivev3
+*.user
+*.ncb
+*.suo
+*.ilk
+*.pch
+*.pdb
+*.dep
+*.idb
+*.manifest
+*.manifest.res
+*.o
+*.d
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+xcuserdata
+*.xccheckout
+*.xcscmblueprint
+*.xcscheme
+contents.xcworkspacedata
+.DS_Store
+.svn
+.deps
+.dirstamp
+profile
+**/MacOSX/build
+**/iOS/build
+**/IDEWorkspaceChecks.plist
+**/Linux/build
+**/LinuxMakefile/build
+**/VisualStudio[0-9]*/Win32
+**/VisualStudio[0-9]*/x64
+**/Builds/x64
+**/.vs
+**/CodeBlocks/bin
+**/CodeBlocks/obj
+**/CodeBlocks/*.depend
+**/CodeBlocks/*.layout
+**/Builds/Android/.gradle
+**/Builds/Android/.idea
+**/Builds/Android/build
+**/Builds/Android/**/*.iml
+**/Builds/Android/local.properties
+**/Builds/Android/app/build
+**/Builds/Android/app/.externalNativeBuild
+**/Builds/Android/app/.cxx
+**/Builds/Android/lib/build
+**/Builds/Android/lib/.externalNativeBuild
+**/Builds/CLion/cmake-build-*
+**/Builds/CLion/.idea
+**/Builds/MacOSX/**/Index
+**/Builds/MacOSX/**/Intermediates.noindex
+**/doxygen/doc
+**/doxygen/build
+**/.idea
+extras/Projucer/JUCECompileEngine.dylib
+
+.idea
+**/cmake-build*
+
+.vscode
+/build
+
+*.component
+*.vst
+*.vst3

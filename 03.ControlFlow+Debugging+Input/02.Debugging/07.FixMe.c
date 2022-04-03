@@ -1,0 +1,1 @@
+int main(){int x = 1;if (x == 1)printf("x is equal to one.\n");elseprintf("For comparison use '=='.\n");printf("'=' is an assignment operator.\n");}
